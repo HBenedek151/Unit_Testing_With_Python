@@ -13,3 +13,7 @@ def test_sb():
 def test_mtp():
     assert multiply(2, 3) == 6
     assert multiply(-2 ,3) == -6
+
+def test_div():
+    assert divide(6, 2) == 3
+    assert divide(6, 0) == "Errror: Division by zero"
